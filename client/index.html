@@ -1,0 +1,81 @@
+<!doctype html>
+<html ng-app='app'>
+  <head>
+    <title>YouVsMarkZuckerberg</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' href='http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js'></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js'></script>
+    <script src='app.js' type='text/javascript'></script>
+    <script src='youVsCalculator.js' type='text/javascript'></script>
+    <div ng-controller='userInput'>
+      <div ng-view>
+        <img class='fbLogo' src='fbLogo.png'/>
+        <div class='incomeInfo'>
+          <h2 class='md-display-2'>Enter your Income</h2>
+          <input type='number' ng-model='income' placeholder='Enter income here'></input>
+          <input id='showHideButton' type='button' value='submit' ng-click='userInputIncome(); scroll(); saveIncome(); showDiv(); saveToScope(); scrollToSelection1();'></input>
+        </div>
+        <div id='bottom'>
+          <div>
+            <h3 class='md-display-4'>It would take Zuckerberg</h3>
+            <h3 class='numberCircle'>{{ youVsZuck }}</h3>
+            <h3 class='md-display-3'>to earn your income</h3>
+            <h3 class='md-display-4'>That means....</h3>
+            <img class='scrollBtn1' ng-click='scrollToSelection2()' src='scrollBtn.png'/>
+          </div>
+          <div class='columns'>
+            <div class='earned2015'>
+              <h3 class='markIncomeYearly'>In 2015 Mark earned</h3>
+              <h3 class='billion'>$18,000,000,000</h3>
+            </div>
+            <div class='dailyAverage'>
+              <h3 class='markIncomeDaily'>With a daily average of</h3>
+              <h3 class='markIncomeDailyNumber'>$49,315,068</h3>
+              <img class='scrollBtn2' ng-click='scrollToSelection3()' src='scrollBtn.png'/>
+            </div>
+            <div class='yearsToEarn'>
+              <h3 class='itWould'>It would take you</h3>
+              <div class='wrapperForYou'>
+                <h3 class='forYou'>{{ forYou }}</h3>
+              </div>
+              <h3 class='earnSame'>years to earn the same</h3>
+              <img class='scrollBtn3' ng-click='scrollToSelection4()' src='scrollBtn.png'/>
+            </div>
+          </div>
+          <div>
+            <h3 class='md-display-4'>With that...</h3>
+            <h3 class='studentHr'>Mark could send <span class='blueSpan'>910,000</span> students through Hack Reactor</h3>
+            <img class='scrollBtn4' ng-click='scrollToSelection5()' src='scrollBtn.png'/>
+            <img src='studentIcon.png' class='studentIcon'/>
+          </div>
+          <div>
+            <h3 class='companyRevenue'>Mark earned <span class='blueSpan'>91%</span> of Toyotas 2015 profit</h3>
+            <h3 class='fidi'>Mark could rent out all <span class='blueSpan'>58,000,000</span>sqft of office space in the financial district for <span class='blueSpan'>4.6</span> years</h3>
+            <h3 class='chiron'>Mark could buy <span class='blueSpan'>6,807</span> Bugatti Chirons at $2,644,000 each</h3>
+            <img class='scrollBtn5' ng-click='scrollToSelection6()' src='scrollBtn.png'/>
+        </div>
+          <h3 class='perspective'>{{ perspective }}</h3>
+          <h3 class='hasEarned'>Zuckerberg has earned <span class='blueSpanCounter'>{{ '$' + counter }}</span> since you have been on this page</h3>
+          <img class='scrollBtn6' ng-click='scrollToSelection7()' src='scrollBtn.png'/>
+          <div class='userStats'>
+            <h3>User Stats: </h3>
+            <h3 class='userIncomeTitle'>Average User Income: </h3>
+            <h3 class='userAvgIncome'>{{ '$' + userAvgIncome }}</h3>
+            <h3 class='sumIncomeTitle'>Sum of all incomes entered in the past 24 hours:</h3>
+            <h3 class='incomeToday'>{{ '$' + incomeToday }}</h3>
+            <img class='scrollBtn7' ng-click='scrollToSelection8()' src='scrollBtn.png'/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

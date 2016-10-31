@@ -1,0 +1,259 @@
+#bottom {
+  position: relative;
+  display: none;
+  text-align: center;
+}
+
+.blueSpanCounter {
+  color: #3b5998;
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hasEarned {
+  color: white;
+  font-size: 64px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.billion {
+  color: #3b5998;
+  font-size: 75px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapperForYou {
+  text-align: center;
+}
+
+.forYou {
+  display: inline;
+  color: #3b5998;
+  font-size: 95px;
+  font-family: 'Roboto', sans-serif;
+  border-style: solid;
+  border-color: #666;
+  border-width: 4px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 30%;
+  float: center;
+}
+
+.yearsToEarn {
+  text-align: center;
+  margin: auto;
+  position: relative !important;
+  text-align: center !important;
+  top: -200px !important;
+}
+
+.blueSpan {
+  color: #3b5998;
+}
+
+.dailyAverage {
+  position: relative !important;
+  left: 300px !important;
+  top: -294px !important;
+}
+
+.markIncomeYearly {
+  color: white;
+  font-size: 56px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.markIncomeDaily {
+  color: white;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.markIncomeDailyNumber {
+  color: #3b5998;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.itWould {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+}
+
+.earnSame {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+}
+
+.perspective {
+  border-color: #3b5998;
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+  font-size: 64px;
+}
+
+body {
+  background-color: black;
+}
+
+.incomeInfo {
+  text-align: center;
+}
+
+.fbLogo {
+  position: relative;
+  left: 30%;
+  top: 100px;
+  width: 5%;
+  height: 5%;
+}
+
+.md-display-2 {
+  color: white;
+}
+
+.md-display-3 {
+  color: white;
+}
+
+.md-display-4 {
+  color: white;
+  position: relative;
+  top: 100px;
+}
+
+.numberCircle {
+  text-align: center;
+    position:relative;
+    left: 400px;
+    border-radius: 50%;
+
+    width: 288px;
+    height: 288px;
+    padding: 32px;
+
+    background: #3b5998;
+    border: 16px solid #666;
+    color: white;
+    text-align: center;
+
+    font: 230px 'Roboto', sans-serif;
+}
+
+.studentIcon {
+  width: 85%;
+  height: 85%;
+}
+
+.studentHr {
+  color: white;
+  font-size:64px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.earned2015 {
+  position: relative !important;
+  left: 50px !important;
+  text-align: left !important;
+}
+
+.companyRevenue {
+  color: white;
+  font-size: 64px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fidi {
+  color: white;
+  font-size: 64px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.chiron {
+  color: white;
+  font-size: 64px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.scrollBtn1 {
+  position: relative;
+  top: -400px;
+  left: 900px;
+  width: 5%;
+  height: 5%;
+}
+
+.scrollBtn2 {
+  position: relative;
+  width: 5%;
+  height: 5%;
+  left: 310px;
+}
+
+.scrollBtn3 {
+  position: relative;
+  width: 5%;
+  height: 5%;
+  left: 610px;
+  top: 25px;
+}
+
+.scrollBtn4 {
+  position: relative;
+  width: 5%;
+  height: 5%;
+  left: 1150px;
+  top: -430px;
+}
+
+.scrollBtn5 {
+  position: relative;
+  width: 5%;
+  height: 5%;
+  left: 600px;
+  top: -85px;
+}
+
+.userStats {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+}
+.incomeToday {
+  color: #3b5998;
+  font-size: 80px;
+}
+
+.userAvgIncome {
+  color: #3b5998;
+  font-size: 80px;
+}
+
+.sumIncomeTitle {
+  font-size: 40px;
+}
+
+.userIncomeTitle {
+  font-size: 40px;
+}
+
+.scrollBtn6 {
+  position: relative;
+  left: 600px;
+  width: 5%;
+  height: 5%;
+}
+
+.scrollBtn7 {
+  position: relative;
+  left: 600px;
+  top: -750px;
+  width: 5%;
+  height: 5%;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
